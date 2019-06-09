@@ -1,0 +1,87 @@
+﻿body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;    
+}
+.header img {
+    display: block;
+    width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.exit {
+    color: #ffffff;
+    width: 1150px;
+    text-align: right;
+}
+.archive {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.post-title a{
+    color: #ffffff;
+    width: 90%;
+    float: left;
+}
+.fold-button {
+    text-align: right;
+}
+.article-author {
+    width: 50%;
+    float: left;
+}
+.article-created-date {
+    text-align: right;
+}
+.article {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.one-post-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    z-index: -1; /* это свойство «отодвигает» элемент на задний план */
+    opacity: 0
+}
+.parallax_group {
+    float: left;
+    width: 30%;
+    height: 100px;
+    position: relative;
+display: block;
+}
+
+.parallax_group img {
+   position: absolute;
+    top: 0;
+}
+
+.first_img {
+    margin-top: 100px;
+    margin-left: 50%;
+    height: 60%;
+    z-index: 3;
+    /* эта картинка на переднем плане, у неё больший z-index
+   */
+}
+
+.second_img {
+    height: 45%; /* уменьшить ширину для картинки, чтобы визуально */
+    /* находилась дальше для пользователя */
+    margin-top: 40px; /* эта картинка слегка смещена вправо и вниз */
+    margin-left: 60%; /* за счет левой и верхней границ */
+    z-index: 2;
+}
+
+.third_img {
+    height: 30%;
+    margin-left: 68%;
+    z-index: 1; /* эта картинка на заднем плане, у неё меньший z-index */
+}
